@@ -34,7 +34,8 @@ function App() {
   const markComplete = (index) => {
     const list = [...toDoList];
     list[index].isComplete = !list[index].isComplete;
-    setTaskInput(list);
+    setTaskInput();
+
   };
 
   return (
